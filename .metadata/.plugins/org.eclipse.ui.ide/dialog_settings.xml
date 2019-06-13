@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.springsource.ide.eclipse.commons.quicksearch.ui.QuickSearchDialog.DIALOG_SETTINGS">
+		<item key="LAST_QUERY" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;persistence xmlns=&quot;http://xmlns.jcp.org/xml/ns/persistence&quot;&#x0A;xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://xmlns.jcp.org/xml/ns/persistence&#x0A;http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd&quot; version=&quot;2.1&quot;&gt;&#x0A;&lt;persistence-unit name=&quot;exemplo-jpa&quot; transaction-type=&quot;RESOURCE_LOCAL&quot;&gt; &lt;properties&gt;&#x0A;&lt;property name=&quot;javax.persistence.jdbc.driver&quot; value=&quot;com.mysql.jdbc.Driver&quot; /&gt; &#x0A;&lt;property name=&quot;javax.persistence.jdbc.url&quot; value=&quot;jdbc:mysql://localhost/aulajpa&quot; /&gt; &#x0A;&lt;property name=&quot;javax.persistence.jdbc.user&quot; value=&quot;root&quot; /&gt;&#x0A;&lt;property name=&quot;javax.persistence.jdbc.password&quot; value=&quot;&quot; /&gt;&#x0A;&lt;property name=&quot;hibernate.hbm2ddl.auto&quot; value=&quot;update&quot; /&gt; &lt;/properties&gt;&#x0A;  &lt;/persistence-unit&gt;&#x0A;&lt;/persistence&gt;&#x0A;"/>
+		<item key="PATH_FILTER" value=""/>
+		<item key="CASE_SENSITIVE" value="true"/>
+		<item key="KEEP_OPEN" value="false"/>
+		<list key="COLUMN_WIDTHS">
+			<item value="40"/>
+			<item value="400"/>
+			<item value="136"/>
+		</list>
+		<list key="SASH_WEIGHTS">
+			<item value="833"/>
+			<item value="166"/>
+		</list>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="88"/>
+			<item key="DIALOG_Y_ORIGIN" value="70"/>
+			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		</section>
+	</section>
+</section>

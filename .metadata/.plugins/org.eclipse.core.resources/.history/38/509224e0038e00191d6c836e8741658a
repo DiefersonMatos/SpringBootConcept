@@ -4,6 +4,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
+
 import domain.Person;
 
 public class Program {
@@ -24,10 +25,23 @@ public class Program {
 		em.persist(person4);
 		em.getTransaction().commit();
 		
+		Person person = em.find(Person.class, 2);
+		
+		em.getTransaction().begin();
+		em.remove(person);
+		em.getTransaction().commit();
+		
+		em.close();
+		emf.close();
+		
+		//System.out.println(person);
+		
 		System.out.println(person1);
 		System.out.println(person2);
 		System.out.println(person3);
 		System.out.println(person4);
+		
+		
 		
 	}
 
